@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './Homepage.css';
-
+import Carousel from '../components/Carousel.js';
 
 class Homepage extends Component{
 	render(){
 		return(
+  <React.Fragment>
     <div className="Container">
       <div className="Monsoon">
         <div className="Monsoon-item">
@@ -40,7 +41,8 @@ class Homepage extends Component{
         </div>
       </div>
     </div>
-
+    <Carousel />
+  </React.Fragment>
 
 		);
 	}
