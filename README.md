@@ -1,7 +1,7 @@
 # vimeo-assessment
 Vimeo Software Engineering Intern - Summer 2020 Coding Assessment
 
-Used React to create a static, responsive webpage with 3 different movie thumbnails and a sliding carousel. Media queries were utilized. No external dependencies were utilized besides React. Pure CSS
+Used React to create a static, responsive webpage with 3 different movie thumbnails and a sliding carousel. Media queries were utilized. No external dependencies were utilized besides React. Pure CSS.
 
 ## Setup
 
@@ -29,4 +29,4 @@ Running the application:
 npm start
 ```
 
-You can now see the app at http://localhost:3000
+You can now see the app at http://localhost:3000.
