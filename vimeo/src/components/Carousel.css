@@ -1,27 +1,11 @@
+
 .Container {
-	/*
-	height: 500px;
-	margin: 0;
-	width: 100%;
-	*/
 }
 
-$theme-blue: #14B6D4;
-
-.image-slide {
-	/*
-	height: 100%;
-	width: 100%;
-	transition: background-image .3s ease-in-out;
-	background-size: cover;
-	background-position: center;
-	height: 500px;
-	*/
-	filter: blur(50px);
-}
 
 .img-slide{
   filter: blur(50px);
+  transition: background-image .3s ease-in-out;
 
 }
 
@@ -29,8 +13,6 @@ $theme-blue: #14B6D4;
 	color: grey;
 	cursor: pointer;
 	font-size: 4rem;
-/*	position: fixed; */
-/*	top: 50%; */
 	top: 1700px;
 	position: absolute;
 }
@@ -43,28 +25,13 @@ $theme-blue: #14B6D4;
 	left: 10%;
 }
 
-
-.backgroundImgCont{
-width: 100%;
-filter: blur(50px);
-height: 400px;
-}
-
-.Card-Text-Container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
 .Card{
 	height: 400px;
 	width: 350px;
 	position: absolute;
 	top: 1550px;
 	left: 15%;
- /*    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); */
-      mask-image: linear-gradient(0,  rgba(0,0,0,0), rgba(0,0,0,1) 20%);
+    mask-image: linear-gradient(0,  rgba(0,0,0,0), rgba(0,0,0,1) 20%);
 
 }
 
@@ -91,22 +58,6 @@ height: 400px;
 	align-items: center;
 	text-align: center;
 	*/
-
-}
-
-.Background{
-	/*background-image: url(`${imgUrls[this.state.currentImageIndex]}`);*/
-	/* CSS file doesnt render the ${} JS syntax */
-	height: 2000px;
-  	background-image: url('http://www.gstatic.com/tv/thumb/v22vodart/12392207/p12392207_v_v8_aa.jpg');
-  	background-size: cover;
-/*
-	background-size: cover;
-	filter: blur(50px);
-	width: 100%;
-	height: 500px;
-	position: absolute;
-*/
 }
 
 button{
@@ -131,8 +82,9 @@ button{
 
 
 @media screen and (max-width: 1550px){
-
-
+	.Text-box{
+		width: 770px;
+	}
 }
 
 @media screen and (max-width: 1350px){
@@ -184,5 +136,9 @@ button{
 		padding: 10px 10px 0px 10px;
 		margin-bottom: 0px;
 		font-size: 1.5rem;
+	}
+
+	button{
+		padding: 4px;
 	}
 }
